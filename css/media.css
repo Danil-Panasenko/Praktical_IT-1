@@ -1,0 +1,48 @@
+@media (max-width: 600px) {
+    nav {
+      display: none;
+    }
+    .imges{
+        display: none;
+    }
+
+    h5{
+        display: none;
+    }
+    .conteiner{
+        margin: 0px 29px;
+    }
+    .title img{
+        width: 33px;
+        height: 19.19px;
+    }
+    .title {
+        width: 1100px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        margin-top: 65px;
+      }
+    .title-text {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+     }
+
+}
+
+@media (max-width: 1150px){
+    .conteiner{
+        margin: 0px 30px;
+    }
+}
+
+@media (min-width: 601px){
+    .imges-media{
+        display: none;
+    }
+    .menu-burger{
+        display: none;
+    }
+    
+}
